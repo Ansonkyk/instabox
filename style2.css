@@ -1,0 +1,66 @@
+div.parent{
+    border:1px solid blue;
+    padding:10px;
+    display:flex;
+    height: 1000;
+    font-weight: 1000;
+    flex-direction: column;
+}
+
+div.header{
+    border: 0px;
+    display:flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+div.catagories{
+    padding :10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content:space-around;
+
+}
+div.icon{
+    padding :10px;
+    margin: 10px;
+    display: flex;
+    justify-content: left;
+
+}
+
+div.infomation{
+    padding :10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-end;
+
+}
+
+div.Firstrow{
+    flex-direction: row;
+    
+}
+div.Secondrow{
+    flex-direction: row;
+}
+div.thrrow{
+    font-size: 6px;
+    flex-direction: row;
+}
+div.fourrow{
+    font-size: 6px;
+    flex-direction: row;
+}
+div.fiverow{
+    font-size: 6px;
+    flex-direction: row;
+}
+div.sixrow{
+    font-size: 6px;
+    flex-direction: row;
+}
